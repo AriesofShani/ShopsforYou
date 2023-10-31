@@ -1,0 +1,16 @@
+.carousel-item{
+    height: 60vh !important;
+    width: 100%;
+}
+.carousel-item img{
+    height: 60vh !important;
+    width: 100%;
+}
+.bg-for{
+    opacity: 80%;
+}
+.bg-for2{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(0,212,255,1) 52%, rgba(9,9,121,1) 73%);
+    
+}

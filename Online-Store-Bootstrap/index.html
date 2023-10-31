@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AhmedOnlineStore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styleshee.css">
+
+  <!-- font owesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" aria-label="Toggle navigation"
+        aria-controls="navbarSupportedContent" aria-expanded="false" data-mdb-target="#navbarSupportedContent">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
+        <!-- Icons -->
+        <ul class="navbar-nav d-flex flex-row me-1">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="badge badge-pill bg-danger">1</span>
+              <span><i class="fas fa-shopping-cart"></i></span>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link mx-1 text-white" href="#"><i class="fas fa-print"></i></a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link mx-1 text-white" href="#"><i class="far fa-clock"></i></a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link mx-1 text-white" href="#"><i class="fas fa-image"></i></a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link mx-1 text-white" href="#"><i class="fab fa-google-plus-g"></i></a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link mx-1 text-white" href="#"><i class="far fa-calendar-alt"></i></a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link mx-1 text-white" href="#"><i class="fas fa-align-justify"></i></a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link mx-1 text-white" href="#"><i class="fas fa-download"></i></a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link mx-1 text-white" href="#"><i class="fas fa-edit"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary border border-1 border-1 ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images-removebg-preview.png" class="img-fluid ms-2" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 fw-bolder text-end mb-lg-0 mx-auto mt-3">
+          <li class="nav-item">
+            <a class="nav-link active text-uppercase" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" aria-current="page" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" aria-current="page" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" aria-current="page" href="#">Our Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" aria-current="page" href="#">Minor Fault</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Men</a></li>
+              <li><a class="dropdown-item" href="#">Kids</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Woman</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn input-group-text btn-light border border-1">
+              <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/pexels-ksenia-chernaya-3965548.jpg" class="d-block" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="cta-content bg-for bg-dark w-50 mx-auto">
+            <p class="discount dynamic fs-2  w-75 text-center rounded-start rounded-end mx-auto w-25 p-3 bg-dark"
+              id="c_51">
+              25%&nbsp;Discount</p>
+            <h2 class="cta-title dynamic mx-auto" id="c_52">Summer collection</h2>
+            <p class="cta-text dynamic mb-5 mx-auto" id="c_53">Starting @ $10</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img src="assets/ideas.jpeg" class="d-block" alt="">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img src="assets/khaadi.png" class="d-block" alt="">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section style="background-color: #eee;">
+    <div class="text-center container py-5">
+      <h4 class="mt-4 mb-5"><strong>BestProducts</strong></h4>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="card">
+            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/belt.webp" class="w-100" />
+              <a href="#!">
+                <div class="mask">
+                  <div class="d-flex justify-content-start align-items-end h-100">
+                    <h5><span class="badge bg-primary ms-2">New</span></h5>
+                  </div>
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <a href="" class="text-reset">
+                <h5 class="card-title mb-3">Watch</h5>
+              </a>
+              <a href="" class="text-reset">
+                <p>Style</p>
+              </a>
+              <h6 class="mb-3">$61.99</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(4).webp"
+                class="w-100" />
+              <a href="#!">
+                <div class="mask">
+                  <div class="d-flex justify-content-start align-items-end h-100">
+                    <h5><span class="badge bg-success ms-2">Eco</span></h5>
+                  </div>
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <a href="" class="text-reset">
+                <h5 class="card-title mb-3">Gents Dress</h5>
+              </a>
+              <a href="" class="text-reset">
+                <p>Clothes</p>
+              </a>
+              <h6 class="mb-3">$61.99</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/shoes%20(3).webp"
+                class="w-100" />
+              <a href="#!">
+                <div class="mask">
+                  <div class="d-flex justify-content-start align-items-end h-100">
+                    <h5><span class="badge bg-danger ms-2">-10%</span></h5>
+                  </div>
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <a href="" class="text-reset">
+                <h5 class="card-title mb-3">Pents</h5>
+              </a>
+              <a href="" class="text-reset">
+                <p>Clothes</p>
+              </a>
+              <h6 class="mb-3">
+                <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="card">
+            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(23).webp"
+                class="w-100" />
+              <a href="#!">
+                <div class="mask">
+                  <div class="d-flex justify-content-start align-items-end h-100">
+                    <h5>
+                      <span class="badge bg-success ms-2">Eco</span><span class="badge bg-danger ms-2">-10%</span>
+                    </h5>
+                  </div>
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <a href="" class="text-reset">
+                <h5 class="card-title mb-3">Shoes</h5>
+              </a>
+              <a href="" class="text-reset">
+                <p>Clothes</p>
+              </a>
+              <h6 class="mb-3">
+                <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
+              </h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(17).webp"
+                class="w-100" />
+              <a href="#!">
+                <div class="mask">
+                  <div class="d-flex justify-content-start align-items-end h-100">
+                    <h5>
+                      <span class="badge bg-primary ms-2">New</span><span class="badge bg-success ms-2">Eco</span><span
+                        class="badge bg-danger ms-2">-10%</span>
+                    </h5>
+                  </div>
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <a href="" class="text-reset">
+                <h5 class="card-title mb-3">Jackets</h5>
+              </a>
+              <a href="" class="text-reset">
+                <p>Clothes</p>
+              </a>
+              <h6 class="mb-3">$61.99</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(30).webp"
+                class="w-100" />
+              <a href="#!">
+                <div class="mask">
+                  <div class="d-flex justify-content-start align-items-end h-100">
+                    <h5>
+                      <span class="badge bg-primary ms-2">New</span><span class="badge bg-success ms-2">Eco</span><span
+                        class="badge bg-danger ms-2">-10%</span>
+                    </h5>
+                  </div>
+                </div>
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <a href="" class="text-reset">
+                <h5 class="card-title mb-3">Hats</h5>
+              </a>
+              <a href="" class="text-reset">
+                <p>Clothes</p>
+              </a>
+              <h6 class="mb-3">
+                <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+        <strong>
+          <h1>Stock Left 30%</h1>
+        </strong>
+        <div class="progress mt-3">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%"
+            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <strong >
+          <h1 class="mt-3">Stock Left Purchasing Price</h1>
+        </strong>
+        <div class="progress mt-4">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+            style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <strong >
+          <h1 class="mt-3">Stock Left Selling Price</h1>
+        </strong>
+        <div class="progress mt-4">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+            style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <strong >
+          <h1 class="mt-3">Stock Left Categories</h1>
+        </strong>
+        <div class="progress mt-4">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar"
+            style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <strong >
+          <h1 class="mt-3">Stock Coming Soon</h1>
+        </strong>
+        <div class="progress mt-4">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar"
+            style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+              <div class="border">
+                <div class="border rounded-circle p-3 bg-danger text-center">
+                  <img src="assets/watch.png" class="mx-auto img-fluid w-75"  alt="">
+                </div>
+                <b>
+                  <h3 class="text-center">Watchs</h3>
+                </b>
+              </div>
+             
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="border">
+                <div class="border rounded-circle p-5 bg-danger text-center">
+                  <img src="assets/hat.png" class="mx-auto img-fluid w-100" alt="">
+                </div>
+                <b>
+                  <h3 class="text-center">Hats</h3>
+                </b>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 mt-5 ">
+              <div class="border">
+                <div class="border rounded-circle p-5 bg-danger text-center">
+                  <img src="assets/shoes.png" class="mx-auto img-fluid w-100"  alt="">
+                </div>
+                <b>
+                  <h3 class="text-center">Shoes</h3>
+                </b>
+              </div>
+             
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mt-5 ">
+              <div class="border ms">
+                <div class="border rounded-circle p-5 bg-danger text-center">
+                  <img src="assets/glasses.jpg" class="mx-auto img-fluid w-100"   alt="">
+                </div>
+                <b>
+                  <h3 class="text-center">Wallets</h3>
+                </b>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12"></div>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <div class="container-fluid row mt-5">
+
+    <div class="col-lg-6 col-md-6 fw-bolder col-sm-12">
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              About Us
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              We are a leading e-commerce store providing a wide range of products to our customers. Our mission is to
+              deliver high-quality products with exceptional customer service.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Contact Information
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Email: info@example.com</p>
+              <p>Phone: +1 123 456 789</p>
+              <p>Address: 123 Main St, Cityville, Country</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              FAQs
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p><strong>Q1: How can I track my order?</strong><br> Ans1: You can track your order by logging into your
+                account and visiting the order tracking page.</p>
+              <p><strong>Q2: What is your return policy?</strong><br> Ans2: Our return policy allows you to return items
+                within 30 days of purchase. Please refer to our Returns & Refunds page for more details.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12  fw-bolder">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              About Us
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              We are a leading e-commerce store providing a wide range of products to our customers. Our mission is to
+              deliver high-quality products with exceptional customer service.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Contact Information
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Email: info@example.com</p>
+              <p>Phone: +1 123 456 789</p>
+              <p>Address: 123 Main St, Cityville, Country</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              FAQs
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p><strong>Q1: How can I track my order?</strong><br> Ans1: You can track your order by logging into your
+                account and visiting the order tracking page.</p>
+              <p><strong>Q2: What is your return policy?</strong><br> Ans2: Our return policy allows you to return items
+                within 30 days of purchase. Please refer to our Returns & Refunds page for more details.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <!-- Content of footer of your website goes here -->
+
+
+  <footer class="footer mt-5 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <li class="footer-nav-item ">
+            <h2 class="nav-title text-white text-start" id="c_61">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item d-flex text-white text-start mt-4">
+            <i class='fas fa-map-marker-alt' style='font-size:48px;color:rgb(248, 239, 239)'></i>
+            <address class="content mt-2 ms-2" id="c_62">Link Road near Degree college abbottabad</address>
+          </li>
+
+          <li class="footer-nav-item d-flex mt-4">
+            <i class="fa fa-phone " style="font-size:49px;color:rgb(255, 244, 244)"></i>
+            <a href="tel:03135652551" class="footer-nav-link text-decoration-none ms-3 mt-2 text-white"
+              id="c_63">+923135652551</a>
+          </li>
+
+          <li class="footer-nav-item d-flex mt-3">
+            <i class="fa fa-envelope" style="font-size:48px;color:rgb(255, 255, 255)"></i>
+            <a class="footer-nav-link text-decoration-none text-white ms-3 mt-2" id="c_64"> malikm032@gmail.com</a>
+          </li>
+        </div>
+        <div class="col-lg-4  col-md-4 col-sm-12 mt-5">
+          <div class="row">
+          <div class="col-lg-6  col-md-6 col-sm-12">
+            <!-- Facebook -->
+            <i class="fab fa-facebook-f fa-2x mt-3 fa-bounce" style="color: #3b5998;"></i>
+            <br>
+            <!-- Twitter -->
+            <i class="fab fa-twitter fa-2x mt-3 fa-fade" style="color: #55acee;"></i>
+            <br>
+            <!-- Google -->
+            <i class="fab fa-google fa-2x mt-3 fa-flip" style="color: #dd4b39;"></i>
+            <br>
+            <!-- Instagram -->
+            <i class="fab fa-instagram fa-2x mt-3 fa-beat-fade" style="color: #ac2bac;"></i>
+            <br>
+            <!-- Youtube -->
+            <i class="fab fa-youtube fa-2x mt-3 fa-shake" style="color: #ed302f;"></i>
+            <br>
+            <!-- Whatsapp -->
+            <i class="fab fa-whatsapp fa-2x mt-3 fa-beat-fade" style="color: #25d366;"></i>
+          </div>
+          <div class="col-lg-6  col-md-6 col-sm-12 p-3"><img src="assets/images-removebg-preview (1).png" alt=""></div>
+        </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <li class="footer-nav-item ">
+            <h2 class="nav-title text-white text-start" id="c_61">Send Us Feedback </h2>
+          </li>
+
+          <li class="footer-nav-item d-flex text-white text-start mt-4">
+            <input type="text" class="form-control border-none w-50" placeholder="Name">
+          </li>
+
+          <li class="footer-nav-item d-flex mt-4">
+            <input type="text" class="form-control border-none w-50" placeholder="E-Mail">
+          </li>
+
+          <li class="footer-nav-item d-flex mt-3">
+            <textarea name="" class="form-control" id="" cols="2" rows="" placeholder="Express Your Ideas"></textarea>
+          </li>
+          <li class="footer-nav-item d-flex mt-3">
+         <button class="form-control w-50 ms-2 bg-secondary">Submit</button>
+          </li>
+
+        </div>
+      </div>
+    </div>
+        <!-- Copyright -->
+        <hr class="text-white mt-5">
+        <div
+        class="text-center p-3 text-white"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+     © 2023 Copyright:
+     <a class="text-white" href="https://mdbootstrap.com/"
+        >AhmedOnlineStore</a
+       >
+   </div>
+   <!-- Copyright -->
+   <section class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12 text-white text-center mt-5">
+      <img src="assets/steam-mind-logo.png" class="w-75" alt="">
+      <strong ><h2>Collabaration Company:</h1></strong>
+        <p class="fs-4 ms-3">Steams Minds</p>
+    </div>
+    
+    <div class="col-lg-4 col-md-4 col-sm-12 text-white text-center p-5" >
+      <strong ><h1>About website Owner</h1></strong>
+      <p class="fs-5">
+        I am a student of Project Zero One <br>
+        Which is being held at Modernage  
+      </p>
+      <img src="assets/modernage-logo.png" alt="">
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 text-white">
+<img src="assets/ahmed.jpg" class="rounded-circle w-50 mt-5 ms-5" alt="">
+<strong ><h2>Name:</h1></strong>
+<p class="fs-4 ms-5">Ahmed Sher</p>
+<strong ><h2>Class:</h1></strong>
+<p class="fs-4 ms-5">2nd Year Opal</p>
+    </div>
+  </div>
+</section>
+  </footer> 
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
